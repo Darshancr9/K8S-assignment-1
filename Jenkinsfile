@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $DOCKER_HUB/$IMAGE:latest -f /home/Dockerfile .'
+                sh 'docker build -t $DOCKER_HUB/$IMAGE:latest -f /home/ec2-user/K8S-assignment-1/Dockerfile .'
             }
         }
 
