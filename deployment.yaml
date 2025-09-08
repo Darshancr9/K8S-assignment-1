@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: darshancr9/ubuntu
+        image: darshancr9/python
         ports:
         - containerPort: 8085
