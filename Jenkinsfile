@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB = "darshancr9"
-        IMAGE = "ubuntu"
+        IMAGE = "python"
     }
 
     stages {
