@@ -30,8 +30,7 @@ pipeline {
 
         stage('Deploy to Kubernetes') {
             steps {
-                sh 'kubectl apply -f K8S-assignment-1/deployment.yaml'
-                sh 'kubectl apply -f K8S-assignment-1/service.yaml'
+                sh 'kubectl apply -f .'
             }
         }
     }
